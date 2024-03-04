@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Inter';
+    src:  url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap")
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-background-body);
+    width: 1024px;
+    margin: auto;
+}
+
+:root{
+    --cor-background-body: #FFFFFD;
+    --cor-do-titulo: #212529;
+    --cor-do-botao: #8629FF;
+    --cor-do-artista: #5E5E5E;
+    --cor-input: #6F00FF;
+    --cor-genero: #15171A;
+    --cor-do-botaoInput: #2B2F33;
+    --cor-gray-4: #CED4DA;
+    --cor-gray-5: #DEE2E6;
+    --cor-gray-6: #F1F3F5;
+    --cor-gray-7: #F1F3F5;
+    --cor-gray-8: #FDFEFF;
+
+
+
+
+
+
+}

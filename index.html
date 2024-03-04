@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
     <title>Open Music</title>
   </head>
   <body>
     <!-- CABEÇALHO -->
     <header>
       <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
+      <h1>open music</h1>
+      <img src="./src/assets/icons/moon-icon.svg" alt="">
+      <img src="./src/assets/icons/sun-icon.svg" alt="">
+
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
@@ -16,16 +23,87 @@
       <!-- SEÇÃO DE FILTRO POR GENERO -->
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+        <h2>Genero Musical</h2>
+        <div>
+          <button>Todos</button>
+          <button>Pop</button>
+          <button>MPB</button>
+          <button>Forro</button>
+          <button>Samba</button>
+          <button>Baiao</button>
+          <button>Rap</button>
+          <button>Hip-Hop</button>
+        </div>
       </section>
-
+        
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
       <section>
-        <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div>
+             <h2>Definir Preco</h2>
+             <p>Ate R$ 100</p>
+         </div>
+         <div>
+          <input type="range" name="preco" id="precos" min="0" max="100">
+         </div> 
+         
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+        <h2>Albuns</h2>
+        <div>
+          <div>
+            <img src="./src/assets/imgs/cover-1.jpg" alt="Album 1">
+            <h3>Acabou o chorare</h3>
+            <p>Novos Baianos</p>
+            <p>MPB</p>
+            <p>R$ 137,91</p>
+            <button>Comprar</button>
+          </div>
+          <div>
+            <img src="./src/assets/imgs/cover-2.jpg" alt="Album 2">
+            <h3>The Wall</h3>
+            <p>Pink Floyd</p>
+            <p>Rock</p>
+            <p>R$ 123,56</p>
+            <button>Comprar</button>
+          </div>
+          <div>
+            <img src="./src/assets/imgs/cover-3.jpg" alt="Album 3">
+            <h3>To Pimp a Butterfly</h3>
+            <p>Kendrick Lamar</p>
+            <p>Rap</p>
+            <p>R$ 102,66</p>
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="./src/assets/imgs/cover-1.jpg" alt="Album 1">
+            <h3>Acabou o chorare</h3>
+            <p>Novos Baianos</p>
+            <p>MPB</p>
+            <p>R$ 137,91</p>
+            <button>Comprar</button>
+          </div>
+          <div>
+            <img src="./src/assets/imgs/cover-2.jpg" alt="Album 2">
+            <h3>The Wall</h3>
+            <p>Pink Floyd</p>
+            <p>Rock</p>
+            <p>R$ 123,56</p>
+            <button>Comprar</button>
+          </div>
+          <div>
+            <img src="./src/assets/imgs/cover-3.jpg" alt="Album 3">
+            <h3>To Pimp a Butterfly</h3>
+            <p>Kendrick Lamar</p>
+            <p>Rap</p>
+            <p>R$ 102,66</p>
+            <button>Comprar</button>
+          </div>
+        </div>
       </section>
     </main>
   </body>
