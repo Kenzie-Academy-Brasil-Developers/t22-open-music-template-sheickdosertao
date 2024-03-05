@@ -1,1 +1,58 @@
-/*estilizacao genres*/
+.div__botoes{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.gen__music{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 25px, 0px, 10px, 0px;
+    height: 50px;
+}
+
+.botao-inpu1{
+    width: 58px;
+    border-radius: 4px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--cor-gray-3);
+}
+
+.botao-input2{
+    width: 52px;
+    height: 28px;
+
+} 
+
+.botao-input3{
+ width: 58px;
+ height: 28px;
+}
+
+.botao-input4{
+   width: 62px;
+   height: 28px; 
+}
+
+.botao-input5{
+    width: 75px;
+    height: 28px;
+}
+
+.botao-input6{
+    width: 65px;
+    height: 28px;
+}
+
+.botao-input7{
+    width: 52px;
+    height: 28px;
+
+}
+
+.botao-input8{
+    width: 87px;
+    height: 28px;
+}

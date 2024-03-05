@@ -1,1 +1,55 @@
-/*estilizacao albums*/
+.main__to{
+    width: 100%;
+    margin-top: 61px;
+}
+
+.div__cards{
+  display: grid;
+  grid-template-columns: 310px 1fr 1fr;
+  gap: 68px;
+  background-color: var(--cor-gray-7);
+  margin-top: 15px;
+  
+}
+
+.card{
+    width: 308px;
+    margin: 10px;
+}
+
+.titulo__cards{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 15px;
+    height: 30px;
+}
+
+.p__card{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-gray-3);
+}
+
+.p__cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+.p__valor{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-gray-2);
+}
+
+.botao__compra{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-gray-9);
+    background-color: var(--cor-do-botao);
+    height: 40px;
+    width: 87px;
+    border-radius: 4px;
+
+}

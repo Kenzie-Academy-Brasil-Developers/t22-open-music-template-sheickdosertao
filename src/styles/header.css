@@ -1,7 +1,36 @@
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--cor-gray-9);
     align-items: center;
-    border: 2px solid var(--cor-do-titulo);
-    height: 50px;
+    border-bottom:  2px solid var(--cor-do-botao);
+    position: sticky;
+    top: 0;
+    
+    
+}
+ h1{
+    font-weight: 600;
+    font-size: 40px;
+ }
+
+ h1 span{
+    color: var(--cor-input);
+ }
+
+.botao__dark{
+    background-image: url("../assets/icons/moon-icon.svg");
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor-gray-9);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.botao__dark--modif{
+    background-image: url("../assets/icons/sun-icon.svg");
+    background-color: var(--cor-gray-1);
 }

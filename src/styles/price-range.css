@@ -1,1 +1,41 @@
-/*estilizacao prince*/
+.div__price{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px  10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.price__input{
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.price__input span{
+    color: var(--cor-input);
+}
+
+/* Selecionando o elemento input range (selecione por id ou classe) */
+#precos{
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    background-color: var(--cor-input);
+    border-radius: 0.5rem;
+    height: 0.5rem;
+  }
+  
+  #precos::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--cor-input);
+  }

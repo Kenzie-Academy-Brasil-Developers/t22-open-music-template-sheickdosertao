@@ -3,30 +3,60 @@
     src:  url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap")
 
 }
+
+
+html {
+    width: 1460px;
+    height:  1582px;
+}
+
 body{
     font-family: 'Inter', sans-serif;
-    background-color: var(--cor-background-body);
-    width: 1024px;
-    margin: auto;
+    background-color: var(--cor-gray-8);
+    width: 1120px;
+    height: 1582px;
+    margin: 0 auto;
 }
 
 :root{
-    --cor-background-body: #FFFFFD;
-    --cor-do-titulo: #212529;
+    
+    
     --cor-do-botao: #8629FF;
-    --cor-do-artista: #5E5E5E;
     --cor-input: #6F00FF;
-    --cor-genero: #15171A;
-    --cor-do-botaoInput: #2B2F33;
-    --cor-gray-4: #CED4DA;
-    --cor-gray-5: #DEE2E6;
-    --cor-gray-6: #F1F3F5;
+    --cor-gray-1: #15171A;
+    --cor-gray-2: #212529;
+    --cor-gray-3: #2B2F33;
+    --cor-gray-4: #5E5E5E;
+    --cor-gray-5: #CED4DA;
+    --cor-gray-6: #DEE2E6;
     --cor-gray-7: #F1F3F5;
     --cor-gray-8: #FDFEFF;
+    --cor-gray-9: #FFFFFD;
 
-
-
+ 
 
 
 
 }
+ 
+.modificar__fundo:root {
+    --cor-gray-9: #15171A;
+    --cor-gray-8: #212529;
+    --cor-gray-7: #2B2F33;
+    --cor-gray-6: #5E5E5E;
+    --cor-gray-5: #CED4DA;
+    --cor-gray-4: #DEE2E6;
+    --cor-gray-3: #F1F3F5;
+    --cor-gray-2: #FDFEFF;
+    --cor-gray-1: #FFFFFD
+}
+
+
+.botao-input{
+    width: 52px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: var(--cor-gray-6);
+}
+
+
