@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
     <link rel="stylesheet" href="./src/styles/index.css">
+    
     <script type="module" src="./src/scripts/index.js" defer></script>
     <title>Open Music</title>
   </head>
@@ -24,14 +25,14 @@
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
         <h2 class="gen__music">Genero Musical</h2>
         <div class="div__botoes">
-          <button class="botao-inpu1">Todos</button>
-          <button class="botao-input2">Pop</button>
-          <button class="botao-input3">MPB</button>
-          <button class="botao-input4">Forro</button>
-          <button class="botao-input5">Samba</button>
-          <button class="botao-input6">Baiao</button>
-          <button class="botao-input7">Rap</button>
-          <button class="botao-input8">Hip-Hop</button>
+          <button class="botao-inpu1"  id="selecionado">Todos</button>
+          <button class="botao-input2" id="selecionado">Pop</button>
+          <button class="botao-input3" id="selecionado">MPB</button>
+          <button class="botao-input4" id="selecionado">Forro</button>
+          <button class="botao-input5" id="selecionado">Samba</button>
+          <button class="botao-input6" id="selecionado">Baiao</button>
+          <button class="botao-input7" id="selecionado">Rap</button>
+          <button class="botao-input8" id="selecionado">Hip-Hop</button>
         </div>
       </section>
         
@@ -42,7 +43,7 @@
              <p class="price__input">Ate <span>R$ 100</span></p>
          </div>
          <div>
-          <input type="range" name="preco" id="precos" min="0" max="100">
+          <input class="input__ranger" type="range" name="preco" id="precos" min="0" max="100">
          </div>
          
       </section>
@@ -52,7 +53,7 @@
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
         <h2 class="titulo__cards">Albuns encontrados</h2>
         <div class="div__cards">
-          <div class="card">
+        <!--  <div class="card">
             <img src="./src/assets/imgs/cover-1.jpg" alt="Album 1">
             <h3 class="titulo__cards">Acabou o chorare</h3>
             <div class="p__cards">
@@ -89,41 +90,41 @@
             </div>
           </div>
           <div class="card">
-            <img src="./src/assets/imgs/cover-1.jpg" alt="Album 1">
-            <h3 class="titulo__cards">Acabou o chorare</h3>
+            <img src="./src/assets/imgs/cover-4.jpg" alt="Album 1">
+            <h3 class="titulo__cards">Thriller</h3>
             <div class="p__cards">
-              <p class="p__card">Novos Baianos</p>
-              <p class="p__card" >MPB</p>
+              <p class="p__card">Michael Jackson</p>
+              <p class="p__card" >Pop</p>
             </div>
             <div class="p__cards">
-              <p class="p__valor">R$ 137,91</p>
+              <p class="p__valor">R$ 142,32</p>
               <button class="botao__compra">Comprar</button>
             </div>
           </div>
           <div class="card">
-            <img src="./src/assets/imgs/cover-2.jpg" alt="Album 2">
-            <h3 class="titulo__cards">The Wall</h3>
+            <img src="./src/assets/imgs/cover-5.jpg" alt="Album 2">
+            <h3 class="titulo__cards">All Eyez on Me</h3>
             <div class="p__cards">
-              <p class="p__card">Pink Floyd</p>
-              <p class="p__card">Rock</p>
+              <p class="p__card">2Pac</p>
+              <p class="p__card">Hip-Hop</p>
             </div>
             <div class="p__cards">
-              <p class="p__valor" >R$ 123,56</p>
+              <p class="p__valor" >R$ 50,13</p>
               <button class="botao__compra">Comprar</button>
             </div>
           </div>
           <div class="card">
-            <img src="./src/assets/imgs/cover-3.jpg" alt="Album 3">
-            <h3 class="titulo__cards">To Pimp a Butterfly</h3>
+            <img src="./src/assets/imgs/cover-6.jpg" alt="Album 3">
+            <h3 class="titulo__cards">Dom de Samba</h3>
             <div class="p__cards">
-              <p class="p__card">Kendrick Lamar</p>
-              <p class="p__card">Rap</p>
+              <p class="p__card">Turma do Pagode</p>
+              <p class="p__card">Samba</p>
             </div>
             <div class="p__cards">
-              <p class="p__valor">R$ 102,66</p>
+              <p class="p__valor">R$ 51,67</p>
             <button class="botao__compra">Comprar</button>
             </div><
-          </div>
+          </div>-->
         </div>
       </section>
     </main>

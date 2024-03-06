@@ -12,7 +12,7 @@ html {
 
 body{
     font-family: 'Inter', sans-serif;
-    background-color: var(--cor-gray-8);
+    background-color: var(--cor-gray-9);
     width: 1120px;
     height: 1582px;
     margin: 0 auto;
@@ -52,11 +52,6 @@ body{
 }
 
 
-.botao-input{
-    width: 52px;
-    height: 32px;
-    border-radius: 4px;
-    background-color: var(--cor-gray-6);
-}
+
 
 

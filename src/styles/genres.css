@@ -17,42 +17,94 @@
     height: 28px;
     font-weight: 500;
     font-size: 16px;
-    background-color: var(--cor-gray-3);
+    border: none;
+
+}
+
+.botao-inpu1:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
 }
 
 .botao-input2{
     width: 52px;
     height: 28px;
+    border: none;
+    border-radius: 4px;
 
-} 
+}
+
+.botao-input2:hover{
+   border: 2px solid var(--cor-gray-1);
+   border-radius: 4px;
+}
 
 .botao-input3{
  width: 58px;
  height: 28px;
+ border: none;
+ border-radius: 4px;
 }
 
+.botao-input3:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
+}
 .botao-input4{
    width: 62px;
-   height: 28px; 
+   height: 28px;
+   border: none;
+   border-radius: 4px;
 }
 
+.botao-input4:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
+}
 .botao-input5{
     width: 75px;
     height: 28px;
+    border: none;
+    border-radius: 4px;
+}
+
+.botao-input5:hover{
+   border: 2px solid var(--cor-gray-1);
+   border-radius: 4px;
 }
 
 .botao-input6{
     width: 65px;
     height: 28px;
+    border-radius: 4px;
+    border: none;
 }
 
+.botao-input6:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
+}
 .botao-input7{
     width: 52px;
     height: 28px;
+    border-radius: 4px;
+    border: none;
 
 }
 
+.botao-input7:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
+}
 .botao-input8{
     width: 87px;
     height: 28px;
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.botao-input8:hover{
+    border: 2px solid var(--cor-gray-1);
+    border-radius: 4px;
 }

@@ -17,6 +17,11 @@
     margin: 10px;
 }
 
+img{
+    width: 308px;
+    height: 290px;
+}
+
 .titulo__cards{
     font-weight: 600;
     font-size: 24px;
@@ -52,4 +57,8 @@
     width: 87px;
     border-radius: 4px;
 
+}
+
+.botao__compra:hover{
+    background-color: var(--cor-input);
 }
