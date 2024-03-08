@@ -1,56 +1,59 @@
 import { handleDarkmode } from "./header.js";
 import { applyInputRangeStyle } from "./inputRange.js";
-import { listadealbuns } from "./albumsDatabase.js";
+
 import { criarDarkMode } from "./theme.js";
+import { armazenaFunction } from "./api.js";
 
-applyInputRangeStyle();
 
-function creatCard({ título, gênero, banda, preço, img }) {
+function creatCard({ title, genre, band, price, img}) {
     const cardDiv = document.createElement("div");
     cardDiv.classList.add("card");
 
     cardDiv.innerHTML =
         `<img src=${img} alt="Album 1">
-        <h3 class="titulo__cards">${título}</h3>
+        <h3 class="titulo__cards">${title}</h3>
         <div class="p__cards">
-            <p class="p__card">${banda}</p>
-            <p class="p__card">${gênero}</p>
+            <p class="p__card">${band}</p>
+            <p class="p__card">${genre}</p>
         </div>
         <div class="p__cards">
-            <p class="p__valor">${preço}</p>
+            <p class="p__valor">${price}</p>
             <button class="botao__compra">Comprar</button>
         </div>`;
 
     return cardDiv;
+    
+
 }
 
 function butaoGenero() {
-    const genero = document.querySelectorAll("#selecionado");
+    const genero1 = document.querySelectorAll("#selecionado");
 
     let previousButton = null;
 
-    genero.forEach(genero => {
-        genero.addEventListener('click', () => {
+    genero1.forEach(genero1 => {
+        genero1.addEventListener('click', () => {
             if (previousButton) {
                 previousButton.style.backgroundColor = '';
             }
-            genero.style.backgroundColor = 'red';
-            previousButton = genero;
+            genero1.style.backgroundColor = 'red';
+            previousButton = genero1;
         });
     });
 }
 
-function rendercards(listadealbuns) {
+function rendercards(resultadoArray) {
     const divCards = document.querySelector(".div__cards");
     divCards.innerHTML = "";
-    if (listadealbuns && Array.isArray(listadealbuns)) {
-        listadealbuns.forEach(album => {
+    if ( resultadoArray && Array.isArray(resultadoArray)) {
+        resultadoArray.forEach(album => {
             const cardImage = creatCard(album);
             divCards.appendChild(cardImage);
         });
     } else {
         console.error('listadealbuns não está definida ou não é um array');
     }
+
 }
 
 
@@ -62,8 +65,6 @@ function filtroinput() {
 
     precoSpan.innerHTML = precoCd;
 
-   
-   
 
 
     
@@ -83,9 +84,16 @@ document.getElementById('precos').addEventListener('input', function() {
     filtroinput();
 });
 
+async function main(){
+    handleDarkmode();
+    criarDarkMode();
+    butaoGenero();
+   applyInputRangeStyle();
+   
+    const resultadoArray = await armazenaFunction (9);
+    
+    rendercards(resultadoArray);
+}
 
-handleDarkmode();
-criarDarkMode();
-butaoGenero();
-rendercards(listadealbuns);
 
+main()
