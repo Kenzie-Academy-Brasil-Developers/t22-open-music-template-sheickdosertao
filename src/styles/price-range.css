@@ -10,6 +10,7 @@
 .price__input{
     font-weight: 600;
     font-size: 22px;
+    color: var(--cor-gray-1);
 
 }
 
@@ -35,7 +36,7 @@
     appearance: none;
     height: 30px;
     width: 30px;
-    background-color: #fff;
+    background-color: #efe7e7;
     border-radius: 50%;
     border: 0.5rem solid var(--cor-input);
   }

@@ -1,4 +1,4 @@
-export const  listadeálbuns  =  [
+export const  listadealbuns  =  [
     {
       título : "Acabou o Chorare" ,
       gênero : "MPB" ,

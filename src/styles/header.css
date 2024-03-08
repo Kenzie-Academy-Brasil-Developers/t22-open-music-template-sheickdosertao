@@ -15,6 +15,7 @@ header{
  h1{
     font-weight: 600;
     font-size: 40px;
+    color: var(--cor-gray-1);
  }
 
  h1 span{
@@ -25,12 +26,12 @@ header{
     background-image: url("../assets/icons/moon-icon.svg");
     width: 30px;
     height: 30px;
-    background-color: var(--cor-gray-9);
     background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--cor-gray-9);
     border: none;
 }
 
-.botao__dark--modif{
+.botao__dark--sun{
     background-image: url("../assets/icons/sun-icon.svg");
-    background-color: var(--cor-gray-1);
 }

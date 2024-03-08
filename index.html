@@ -38,13 +38,15 @@
         
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
       <section>
-         <div class="div__price">
+        <form action="">
+          <div class="div__price">
              <h2 class="gen__music">Definir Preco</h2>
-             <p class="price__input">Ate <span>R$ 100</span></p>
+             <p class="price__input">Ate <span>R$ 150</span></p>
          </div>
-         <div>
-          <input class="input__ranger" type="range" name="preco" id="precos" min="0" max="100">
+         <div class="input__preco">
+          <input class="input__ranger" type="range" name="preco" id="precos" min="0" max="150">
          </div>
+        </form>
          
       </section>
 
@@ -52,7 +54,7 @@
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
         <h2 class="titulo__cards">Albuns encontrados</h2>
-        <div class="div__cards">
+        <div class="div__cards" id="cardsContainer">
         <!--  <div class="card">
             <img src="./src/assets/imgs/cover-1.jpg" alt="Album 1">
             <h3 class="titulo__cards">Acabou o chorare</h3>

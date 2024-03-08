@@ -3,9 +3,9 @@ export function applyInputRangeStyle() {
   
     inputRange.addEventListener("input", (event) => {
       const currentInputValue = event.target.value;
-      const runnableTrackProgress = (currentInputValue / inputRange.max) * 100;
+      const runnableTrackProgress = (currentInputValue / inputRange.max) *100;
   
-      inputRange.style.background = `linear-gradient(to right, var(--cor-input) ${runnableTrackProgress}%, var(--cor-gray-5) ${runnableTrackProgress}%)`;
+      inputRange.style.background = `linear-gradient(to right , var(--cor-input) ${runnableTrackProgress}%, var(--cor-gray-5) ${runnableTrackProgress}%)`;
     });
   }
 
