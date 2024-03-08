@@ -2,7 +2,7 @@ import { handleDarkmode } from "./header.js";
 import { applyInputRangeStyle } from "./inputRange.js";
 
 import { criarDarkMode } from "./theme.js";
-import { armazenaFunction } from "./api.js";
+import { musicaApi } from "./api.js";
 
 
 function creatCard({ title, genre, band, price, img}) {
@@ -90,7 +90,7 @@ async function main(){
     butaoGenero();
    applyInputRangeStyle();
    
-    const resultadoArray = await armazenaFunction (9);
+    const resultadoArray = await musicaApi (9);
     
     rendercards(resultadoArray);
 }

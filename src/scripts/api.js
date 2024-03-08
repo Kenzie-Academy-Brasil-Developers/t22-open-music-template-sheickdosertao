@@ -1,9 +1,9 @@
- const musicaApi = async () => {
-    const url = `https://openmusic-fake-api.onrender.com/api/musics`
+ export const musicaApi = async () => {
+    const url = `https://openmusic-fake-api.onrender.com/api/musics/`
 
-    const data = await fetch(url);
+    const data = await fetch(url).then((response) => response.json());
 
-  
+  console.log(data);
 
     return data;
 
@@ -49,19 +49,9 @@ const cardArtista = {
   return cardArtista;
 
 
+   
 };
 
 
-export const armazenaFunction = async (cardsMae = 9) => {
-   const musicaArray = [];
-
-    for (let i = 0; i < cardsMae; i++){
-       const cardData = await musicaApi(i + 1);
-        const cardArtis = handeleApi(cardData);
-        musicaArray.push(cardArtis);
-    }
-
-    return musicaArray;
-};
 
 
