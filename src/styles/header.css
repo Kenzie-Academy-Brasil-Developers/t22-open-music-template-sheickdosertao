@@ -1,12 +1,11 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
-    width: 100%;
+    width: 1024px;
     height: 60px;
     background-color: var(--cor-gray-9);
     align-items: center;
-    border-bottom:  2px solid var(--cor-do-botao);
+    border-bottom: 3px solid var(--cor-do-botao);
     position: sticky;
     top: 0;
     

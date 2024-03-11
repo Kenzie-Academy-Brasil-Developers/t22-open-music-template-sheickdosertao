@@ -1,33 +1,45 @@
 .main__to{
-    width: 100%;
+    width: 1024px;
     margin-top: 61px;
 }
 
 .div__cards{
   display: grid;
   grid-template-columns: 310px 1fr 1fr;
-  gap: 68px;
+  gap: 48px;
   background-color: var(--cor-gray-7);
   margin-top: 15px;
+  width: 1024px;
+  
   
 }
 
 .card{
     width: 308px;
-    margin: 10px;
+ 
+   
 }
 
 img{
     width: 308px;
     height: 290px;
+    border-radius: 4px 4px 0px 0px;
 }
 
+.titulo__card{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 32px 0px 19px 0px;
+    height: 30px;
+    color: var(--cor-gray-1);
+}
 .titulo__cards{
     font-weight: 600;
     font-size: 24px;
-    margin: 15px;
+    margin: 32px 0px 19px 0px;
     height: 30px;
     color: var(--cor-gray-1);
+    padding-inline-start: 16px;
 }
 
 .p__card{
@@ -52,7 +64,7 @@ img{
 .botao__compra{
     font-weight: 500;
     font-size: 16px;
-    color: var(--cor-gray-1);
+    color: white;
     background-color: var(--cor-do-botao);
     height: 40px;
     width: 87px;
